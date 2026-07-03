@@ -80,4 +80,4 @@ This repository is a public showcase. Full source is available on request — re
 
 ---
 
-**BUILT BY M33P5T3R** · Rest in power, DOOM. 🎭
+Rest in power, DOOM. 🎭
