@@ -18,9 +18,9 @@ It's also a portfolio piece. Every interaction pattern here — scroll-driven 3D
 
 ## The Experience
 
-**HERO** — The mask. A real photogrammetry scan floating in the dark, lit from below, swaying on a 6-second idle loop.
+**THE LANDING** — A featured record front-and-center: click the cover to drop the needle right from the first screen. Behind it all, the mask — a real photogrammetry scan — haunts the background as a persistent 3D layer, parallaxing through every section.
 
-**THE CRATE** — Scroll to dig through fanned record sleeves: *Operation: Doomsday*, *Madvillainy*, *Mm.. Food*, *Key to the Kuffs*. Comic-book tooltips point the way, then get out of yours.
+**THE CRATE** — Scroll to dig through fanned record sleeves: *Operation: Doomsday*, *Take Me To Your Leader*, *Madvillainy*, *Mm.. Food*, *Key to the Kuffs*. Comic-book tooltips point the way, then get out of yours.
 
 **THE LIFT** — Click a sleeve and it rises out of the crate on a bezier arc while the rest sink away. The room's entire color palette crossfades to that album's mood — the color deliberately trails the motion.
 
@@ -49,6 +49,7 @@ The reactive layer writes to refs and CSS variables inside `requestAnimationFram
 - **Viewport-derived 3D layout** — the sleeve/vinyl composition computes its position from the live camera frustum every frame, so the split-screen contract holds from laptop to ultrawide.
 - **Persistent mask** — one 3D object anchored per-section with scroll parallax and depth fog, never fighting the foreground UI.
 - **Canvas-generated vinyl labels** — each album's label (title / 33⅓ RPM / year) is drawn to a `CanvasTexture` at runtime in the album's accent color.
+- **Per-album mood system** — five albums, five palettes, five shader treatments, one crossfade pipeline.
 - **Typography discipline** — 3D objects and color animate; type *cuts*. Text never moves while readable.
 - **Reduced motion** respected throughout: moves become fades, parallax and sway disabled.
 
@@ -72,7 +73,7 @@ The interaction pattern was reverse-engineered from a reference vinyl-player con
 
 Audio is limited to short excerpts (~15–20s), clearly labeled as fair-use clips, in tribute context with full attribution. All rights to the recordings belong to their respective holders — go stream the albums in full:
 
-**Operation: Doomsday** (1999) · **Madvillainy** (2004) · **Mm.. Food** (2004) · **Key to the Kuffs** (2012)
+**Operation: Doomsday** (1999) · **Take Me To Your Leader** (2003) · **Madvillainy** (2004) · **Mm.. Food** (2004) · **Key to the Kuffs** (2012)
 
 ## Source Access
 
