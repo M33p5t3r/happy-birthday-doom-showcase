@@ -2,7 +2,7 @@
 
 **An interactive vinyl tribute to MF DOOM — and a deep-dive into audio-reactive 3D on the web.**
 
-🔴 **Live:** [happy-birthday-doom.vercel.app](https://happy-birthday-doom.vercel.app/)
+**Live:** [happy-birthday-doom.vercel.app](https://happy-birthday-doom.vercel.app/)
 
 ![The Villain's Basement](./screenshot.png)
 
@@ -81,4 +81,4 @@ This repository is a public showcase. Full source is available on request — re
 
 ---
 
-**BUILT BY M33P5T3R** · Rest in power, DOOM. 🎭
+Rest in power, DOOM. 🎭
